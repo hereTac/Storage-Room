@@ -6,7 +6,7 @@
  * @author ikun0014
  */
 
-const API_URL = 'https://lxmusic.ikunshare.com';
+const API_URL = 'http://110.42.38.239:1314';
 const API_KEY = ``
 //getMusicUrl 函数用于获取音乐 URL。必须接受以下四个参数：songname: 歌曲名称，artist: 艺术家名称，songid: 企鹅平台的歌曲songmid，quality: 音质 '128k'|'320k'|'flac'。
 async function getMusicUrl(songname, artist, songmid, quality) {
